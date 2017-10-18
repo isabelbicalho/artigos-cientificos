@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.16)  19 SEP 2017 09:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.16)  19 SEP 2017 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -266,17 +266,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
- (./sbc-template.bbl) [1
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./sbc-template.aux) ) 
 Here is how much of TeX's memory you used:
- 2628 strings out of 495028
- 37311 string characters out of 6181497
- 99472 words of memory out of 5000000
- 5796 multiletter control sequences out of 15000+600000
+ 2622 strings out of 495028
+ 37242 string characters out of 6181497
+ 98422 words of memory out of 5000000
+ 5793 multiletter control sequences out of 15000+600000
  18188 words of font info for 40 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,8n,28p,681b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,8n,28p,601b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/us
 r/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/f
@@ -285,7 +285,7 @@ ype1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (1 page, 74826 bytes).
+Output written on sbc-template.pdf (1 page, 68769 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream

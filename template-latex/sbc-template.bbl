@@ -17,4 +17,11 @@ Smith, A. and Jones, B. (1999).
 \newblock In Smith-Jones, A.~B., editor, {\em Advances in Computer Science},
   pages 555--566. Publishing Press.
 
+\bibitem[Carolina Scarton and Lin Sun and Karin Kipper Schuler and Magali Sanches Duran and Martha Palmer and Anna Korhonen]{scarton:14}
+Scarton, A. et al. (2014).
+\newblock Verb Clustering for Brazilian Portuguese.
+\newblock In CICLing (LNCS 8403),
+  pages 25--39. Springer.
+
+
 \end{thebibliography}
