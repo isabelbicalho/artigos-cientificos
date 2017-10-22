@@ -1081,23 +1081,23 @@ ITERATE {bib.sort.order}
 
 SORT		% by sort.label, year, title---giving final bibliography order
 
-FUNCTION {begin.bib}
-{ preamble$ empty$				% no \etalchar in apalike
-    'skip$
-    { preamble$ write$ newline$ }
-  if$
-  "\begin{thebibliography}{}" write$ newline$		% no labels in apalike
-}
+%FUNCTION {begin.bib}
+%{ preamble$ empty$				% no \etalchar in apalike
+%    'skip$
+%    { preamble$ write$ newline$ }
+%  if$
+%  "\begin{thebibliography}{}" write$ newline$		% no labels in apalike
+%}
 
-EXECUTE {begin.bib}
+%EXECUTE {begin.bib}
 
 EXECUTE {init.state.consts}
 
 ITERATE {call.type$}
 
-FUNCTION {end.bib}
-{ newline$
-  "\end{thebibliography}" write$ newline$
-}
+%FUNCTION {end.bib}
+%{ newline$
+%  "\end{thebibliography}" write$ newline$
+%}
 
-EXECUTE {end.bib}
+%EXECUTE {end.bib}
