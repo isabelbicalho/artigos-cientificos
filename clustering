@@ -14,7 +14,17 @@ k-medoids é uma variante do k-means e pode ser trabalhado com caracteristicas c
 
 
 hierarchical clustering
-can be devides between agglomerative clustering (bottom up) and divisive clustering (top down)
+can be devided between agglomerative clustering (bottom up) and divisive clustering (top down)
+we can represent hierarchical clusterings with a dendrogram which is shown below
 
-aglomerative clustering
+agglomerative clustering
+every data in agglomerative clustering starts as a small clustering. then, the algorithm merges clusters that mach a similarity critera, such as least increase in total variance, average distance between clusters, max distance between clusters, etc. Also, we can define when a cluster can be merged, if two clusters do not have a minimum similarity criterea to be merges, for example.
+the end point of agglomerative lcustering is the number of clusters we give as parameter for the algorithm.
 
+
+dbscan clustering
+advantage: we do not need to pass the number of desired clusters as a parameter to the algorithm. it can be used in large datasets and it is goot do identify noise poins (outliers)
+this algorithm uses the density of items in space as similarity criteria
+
+
+https://pt.coursera.org/learn/python-machine-learning/lecture/Xs8IM/clustering
