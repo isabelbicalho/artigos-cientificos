@@ -1,0 +1,20 @@
+clustering; utilizado para aprendizado nao supervisionado
+
+seu objetivo é deividir um conjunto de dados em demais grupos a partir de uma determinada semelhança
+alguns algoritmos de clustering podem prever em qual cluster o novo dado poderá se encaixar. isso é muito util quando novos dados estão sendo obtidos constantemente. 
+é semelhante à classificação, porém não treinamos o modelo de lcustering com exemplos rotulados
+um dos algoritmos mais utilizados de clustering é chamado de k-means
+o algoritmo do k-means encontra um numero k de clusterings em diferentes regiões em um espaço de caracteristicas de um conjunto de dados. cada clustering represesenta um grupo diferente. 
+contra: o numero k é dado, e para isso devemos saber o numero de classes que o conjunto de dados deveria ter
+a logica do k-menas é pegar primeiramente k localizaçoes aleatórias no espaço de características e tomálas como os pontos centrais dos k clusteres. em seguida, o algoritmo relaciona cada dado com o ponto central do clustering mais perto. quando esse procedimento acaba, os pontos centrais dos clusteres são rearranjados de forma a ficar no centro dos pontos relacionados a ele. esses dois ultimos passos são realizados continuamente até que os pontos centrais dos clusteres se encontrem em uma localização mais estável.
+como o ponto de início do algoritmos k-means seleciona k lugares aleatórios, o resultado final nem sempre é o mesmo. por isso, devemos executar o algoritmo várias vezes e pegar a solução que apareceu mais vezes.
+alguns algoritmos podem prever onde inicializar os center clusteres e outros não. 
+desvantagem em dados muito complexos. os dados devem ser clusterizaveis de forma simples e devem estar bem espaçados.
+k-medoids é uma variante do k-means e pode ser trabalhado com caracteristicas categoricas 
+
+
+hierarchical clustering
+can be devides between agglomerative clustering (bottom up) and divisive clustering (top down)
+
+aglomerative clustering
+
